@@ -150,14 +150,19 @@ function App() {
 
       <Container>
         <Card>
-          <Bar options={options} data={data} />;
+          <Bar options={options} data={data} />
         </Card>
       </Container>
 
       <Container>
+        <Card>
+          <Bar options={options2} data={data2} />;
+        </Card>
+      </Container>
+      <Container>
         <Row>
-          <Col lg={3} md={6}>
-            <Card style={{ width: '20rem' }}>
+          <Col>
+            <Card style={{ width: '13em' }}>
               <Card.Body>
                 Card.Body
                 <Card.Title>Card.Title</Card.Title>
@@ -168,8 +173,8 @@ function App() {
             </Card>
           </Col>
 
-          <Col lg={3} md={6}>
-            <Card style={{ width: '20rem' }}>
+          <Col>
+            <Card style={{ width: '13rem' }}>
               <Card.Body>
                 Card.Body
                 <Card.Title>Card.Title</Card.Title>
@@ -180,8 +185,8 @@ function App() {
             </Card>
           </Col>
 
-          <Col lg={3} md={6}>
-            <Card style={{ width: '20rem' }}>
+          <Col>
+            <Card style={{ width: '13rem' }}>
               <Card.Body>
                 Card.Body
                 <Card.Title>Card.Title</Card.Title>
@@ -192,8 +197,8 @@ function App() {
             </Card>
           </Col>
 
-          <Col lg={3} md={6}>
-            <Card style={{ width: '20rem' }}>
+          <Col>
+            <Card style={{ width: '13rem' }}>
               <Card.Body>
                 Card.Body
                 <Card.Title>Card.Title</Card.Title>
@@ -204,12 +209,6 @@ function App() {
             </Card>
           </Col>
         </Row>
-      </Container>
-
-      <Container>
-        <Card>
-          <Bar options={options2} data={data2} />;
-        </Card>
       </Container>
     </div>
   )
